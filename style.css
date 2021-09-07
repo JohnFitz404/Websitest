@@ -1,0 +1,285 @@
+/* Style sheet for Bike repair shop website */
+
+html {
+
+    /* background-image: linear-gradient(#FC5E55 , #FA4083);  */
+    background-image: linear-gradient(#08AEEA , #081fea); 
+}
+
+body {
+
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+h1 {
+
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    
+
+}
+
+h2 {
+
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+
+}
+
+p {
+    
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+
+}
+
+i {
+
+    font-size: 100px;
+    margin-top: 5%;
+    
+
+}
+
+.container {
+
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid lightgray;    
+
+}
+
+main{
+
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+
+}
+
+.contact-us {
+ 
+    min-height: 300px;
+    padding-top: 50px;
+
+}
+
+.cards {
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+
+}
+
+.card1  {
+
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+
+}
+
+.card2  {
+
+    /* background-image: url(images/SportCruiser.jpeg); */
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+
+.card3  {
+
+    /* background-image: url(images/SpeedBoat.jpg);     */
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+
+}
+
+.cards p {
+
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px;        
+    
+                                        /* margin spacing (4 values) top, right, bottom, left */
+                                        /* margin spacing (2 values) top/bottom, left/right   */
+
+}
+
+.cards a  {
+
+    color: white;
+    text-decoration: none;
+}
+
+.card1, .card2, .card3 {
+
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 5px 25px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+
+}
+
+.herobox1 {
+
+    flex: 2;
+    padding-right: 100px;
+
+}
+
+.herobox2 {
+
+    flex: 1;
+
+}
+
+.herobox2 img {
+
+    border-radius: 5px 25px;
+    box-shadow: 2px 2px 50px rgb(0, 0, 0);
+
+}
+
+.myButton {
+
+    color: #FA4083;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0.228);   
+
+}
+
+.myButton:hover {
+
+    background-color: rgb(29, 213, 103);
+    transition-duration: 1s;
+
+}
+
+.navButton {
+    
+    border: 2px solid white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.navButton:hover {
+
+    background-color: rgb(29, 213, 103);
+    transition-duration: 1s;
+
+}
+
+.testimonials {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+   
+}
+
+.tbox {
+
+    width: 47%;
+    padding: 25px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 15px;
+
+}
+
+.tbox p:last-of-type {
+
+    font-size: 0.8rem;
+    margin-left: 15px;
+
+}
+
+.dropdown {
+
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -30px;
+   
+
+}
+
+.navButton:hover .dropdown {
+
+    display: block;
+
+}
+
+.dropdown .navButton {
+
+    width: 120px;
+
+
+}
+
+.dropdown .navButton a {
+
+    color: #FA4083;
+
+}
+
+.inputWrapper {
+
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.inputButton {
+
+    margin-bottom: 20px;
+    text-align: left;
+}

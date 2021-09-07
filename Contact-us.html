@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+
+    <!-- This is Eric Meyers CSS reset -->
+     <link rel="stylesheet" href="css-reset.css"> 
+    <!-- This is My CSS  style sheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Links for Font styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <!-- Links for fontawesome icons-->
+    <script src="https://kit.fontawesome.com/512a6090c6.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/jmfsurveylogo.png" alt="logo for bike repair shop"></a>
+            </div>
+
+            <nav>
+                
+                <div class="navButton">
+                    <a href="#">About</a>
+                </div>
+                <div class="navButton">
+                    <a href="Contact-us.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="contact-us">
+
+            <h1>Contact us</h1>
+            <p>Do you have any questions? Please do not hesitate to contact us directly.</p>
+
+            <form action="mail.php" method="post">
+
+
+                <div class="inputWrapper">
+                    <label for="Name"> First Name</label>
+                    <input type="text" name="Name" id="name" placeholder="Name">
+                </div>
+
+                <div class="inputWrapper">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="email" placeholder="Email">
+                </div>
+                
+                <div class="inputWrapper">
+                    <textarea name="Message" id="message" cols="100" rows="5" placeholder="Let us know what you think"></textarea>
+                </div>                
+
+                <div class="inputWrapper">
+
+                    <p>How should we contact you?</p>
+
+                    <input type="radio" name="Contact-Preferance" id="Phone" value="Phone">
+                    <label for="Phone"> Phone</label>
+                    <input type="radio" name="Contact-Preferance" id="Email" value="Email">
+                    <label for="Email"> Email</label>
+                </div>
+                
+                <div class="inputButton">
+                    
+                    <input type="submit" value="Send">
+                </div>
+
+            </form>
+
+        </div>
+        <div class="cards">
+            <div class="card1">
+                <a href="#">
+                    <i class="fas fa-motorcycle"></i>
+                    <h2> Book Online </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut hic, placeat nulla accusamus alias voluptates!</p>
+                </a>
+            </div>
+            <div class="card2">
+                <a href="#">
+                    <i class="fas fa-tools"></i>
+                    <h2> Service Types </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut hic, placeat nulla accusamus alias voluptates!</p>
+                </a>
+            </div>
+            <div class="card3">
+                <a href="#">
+                    <i class="fas fa-phone"></i>
+                    <h2> Call for Advice</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut hic, placeat nulla accusamus alias voluptates!</p>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<footer>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ex voluptas quisquam unde expedita repellat ratione optio libero sit ullam quos maxime, modi molestiae aliquam culpa corrupti sapiente. Vel, fugit.</p>
+
+</footer>
+</html>
